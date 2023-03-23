@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 import pytest
 
 
-@pytest.mark.group1020
+@pytest.mark.Main
 def test_example(browser):
 
     browser.get('http://www.ebay.com/')
